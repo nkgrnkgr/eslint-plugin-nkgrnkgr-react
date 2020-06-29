@@ -1,19 +1,15 @@
-# xxxx/example-rule
-> An example rule.
-> - ⭐️ This rule is included in `plugin:xxxx/recommended` preset.
-
-This is an example.
+# nkgrnkgr-react/no-importspecifiers-in-react
 
 ## Rule Details
 
-This rule aimed at disallowing `example` identifiers.
+This rule aimed at disallowing `import specifiers in React` identifiers.
 
 Examples of **incorrect** code:
 
 ```js
 /*eslint template/example-rule: error */
 
-var example = 1;
+import React, { useEffect } from 'react';
 ```
 
 Examples of **correct** code:
@@ -21,7 +17,7 @@ Examples of **correct** code:
 ```js
 /*eslint template/example-rule: error */
 
-var foo = 1;
+import React from 'react';
 ```
 
 ## Options
@@ -30,5 +26,5 @@ Nothing.
 
 ## Implementation
 
-- [Rule source](../../lib/rules/example-rule.js)
+- [Rule source](../../lib/rules/no-importspecifiers-in-react.js)
 - [Test source](../../tests/lib/rules/example-rule.js)

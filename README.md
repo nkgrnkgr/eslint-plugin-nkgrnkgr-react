@@ -1,34 +1,4 @@
-
-This is a trial of [GitHub Repository Template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/).
-
-Please update `package.json` after you created new repository with this template.
-
-**File Structure**:
-
-- `docs/rules/` is the directory to put documentation.
-- `lib/rules/` is the directory to put rule definitions.
-- `scripts/` is the directory to put development scripts.
-- `tests/lib/` is the directory to put tests for `lib/`.
-- `.eslintignore` and `.eslintrc.js` are the configuration to lint this repository.
-
-**Dependencies**:
-
-This template uses [mocha](https://www.npmjs.com/package/mocha), [nyc](https://www.npmjs.com/package/nyc), and [Travis CI](https://travis-ci.com/) for tests, as same as ESLint itself. If you want to use other tools, customize it.
-
-**Development Tools**:
-
-- `npm run add-rule foo` command adds a rule definition.
-- `npm version` command updates the following stuff by the `meta` property of rules:
-    - the header of `docs/rules/*.md`.
-    - `lib/configs/recommended.js` file.
-    - `lib/index.js` file.
-    - the rule table in `README.md` file.
-
-Below is an example of README.
-
-----
-
-# eslint-plugin-xxxx (template)
+# eslint-plugin-nkgrnkgr-react
 
 <!--
 [![npm version](https://img.shields.io/npm/v/eslint-plugin-xxxx.svg)](https://www.npmjs.com/package/eslint-plugin-xxxx)
@@ -45,7 +15,7 @@ A template for ESLint plugins.
 Use [npm](https://www.npmjs.com/) or a compatibility tool to install.
 
 ```
-$ npm install --save-dev eslint eslint-plugin-xxxx
+$ npm install --save-dev eslint eslint-plugin-nkgrnkgr-react
 ```
 
 ### Requirements
