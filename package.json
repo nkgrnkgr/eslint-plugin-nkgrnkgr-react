@@ -20,6 +20,7 @@
     "postversion": "git push && git push --tags"
   },
   "peerDependencies": {
+    "@typescript-eslint/parser": "^3.0.0",
     "eslint": ">=5.16.0"
   },
   "dependencies": {},
