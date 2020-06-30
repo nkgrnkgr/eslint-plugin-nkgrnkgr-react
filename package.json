@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-xxxx",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "",
   "engines": {
     "node": ">=8.10.0"
