@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-nkgrnkgr-react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "engines": {
     "node": ">=8.10.0"
@@ -44,7 +44,7 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nkgrnkgreslint-plugin-nkgrnkgr-react/issues"
+    "url": "https://github.com/nkgrnkgr/eslint-plugin-nkgrnkgr-react/issues"
   },
-  "homepage": "https://github.com/nkgrnkgreslint-plugin-nkgrnkgr-react#readme"
+  "homepage": "https://github.com/nkgrnkgr/eslint-plugin-nkgrnkgr-react#readme"
 }
